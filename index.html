@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- HTML PAGE FOR THE MOCK TCA. DO NOT CHANGE THIS IN ANY WAY. -->
+<html>
+<head>
+<title>Mock TCA Front End</title>
+<style type='text/css'>
+body {
+    background-color: #1a3a5a;
+    color: white;
+    font-family: sans-serif;
+}
+</style>
+<script type='module' src='/src/client.ts'></script>
+</head>
+<body>
+<div style='display: flex; justify-content: center'>
+<img src="images/staysmart_photo.jpg" alt="Hotel lobby" />
+</div>
+<h1>StaySmart - book your hotel room!</h1>
+<h2>Search for a room:</h2>
+<p>
+City:
+<input id='cityName' />
+Hotel:
+<input id='hotelName' />
+Check-in date:
+<input id='checkInDate' />
+<button type='button' id='btnRoomSearch'>Search!</button>
+</p>
+<div id='searchResults'></div>
+<h2>Add a room:</h2>
+<p>
+City:<br />
+<input id='cityName2' /><br />
+Hotel:<br />
+<input id='hotelName2' /><br />
+Date available:<br />
+<input id='theDate' /><br />
+Room type:<br />
+<input id='roomType' /><br />
+Number of beds:<br />
+<input id='nBeds' /><br />
+Price per night:<br />
+<input id='price' /><br />
+<button type='button' id='btnRoomAdd'>Add Room!</button>
+</p>
+<div id='roomAddStatus'></div>
+<p><strong>Disclaimer:</strong> StaySmart is an entirely fictional company.</p>
+</body>
+</html>
